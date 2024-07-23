@@ -1,5 +1,13 @@
 # astro
 
+## 4.12.3
+
+### Patch Changes
+
+- [#11509](https://github.com/withastro/astro/pull/11509) [`dfbca06`](https://github.com/withastro/astro/commit/dfbca06dda674c64c7010db2f4de951496a1e631) Thanks [@bluwy](https://github.com/bluwy)! - Excludes hoisted scripts and styles from Astro components imported with `?url` or `?raw`
+
+- [#11525](https://github.com/withastro/astro/pull/11525) [`8068131`](https://github.com/withastro/astro/commit/80681318c6cb0f612fcb5188933fdd20a8f474a3) Thanks [@ematipico](https://github.com/ematipico)! - Fixes a case where the build was failing when `experimental.actions` was enabled, an adapter was in use, and there were not actions inside the user code base.
+
 ## 4.12.2
 
 ### Patch Changes
